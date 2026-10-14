@@ -1,0 +1,19 @@
+# data produced by the pipeline
+data/*
+!data/.gitkeep
+
+# python / tooling
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# secrets and local config
+.env
+*.pem
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
